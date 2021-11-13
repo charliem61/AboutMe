@@ -1,98 +1,56 @@
-
-
-html {
-    font size:15px;
-
-}
-body{
-    background-color: tan;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', 'Arial, sans-serif' ;
-}
 header{
-    font-size:x-large;
-    display: flex;   
+    display: flex;
     justify-content: space-between;
-    padding-top: even;
+    color:white;
+    flex-wrap: wrap;
+}
+.name{
+    padding:20px;
+    font-size:45px;
+    background-color:black;
+    color:ghostwhite;
+    flex:1 0 auto;
 }
 .link-bar{
-    display:flex
-}
-.link-bar a {
-    justify-content: space-evenly;
-    padding: 25px;
-}
-
-.hero {
-    display:behind;
-    background-image: url("assets/images/ems:vol:imgs/river.jpeg");
-    width:100%;
-    padding: top 10px;
-}
-
-.banner {
-    color: azure;
+    display: flex;
+    align-items: center;
+    width: 50%;
+    justify-content: space-around;
+    background-color: black;
     font-size: 35px;
-    justify-content:end
+    color:whitesmoke;
 }
-div{
-    flex-container: 
+.banner{
+    display: flex;
     justify-content: flex-end;
-    color: black;
+    font-size: 60px;
+    padding:25px;
+    border-radius: 10px;
+    opacity: 40%;
+    color:whitesmoke;
+    background: black;
+
 }
-
-#about-me{
-    font-size: 35px;
+.hero{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    overflow: hidden;
+    background-image: url("images/ems:vol:imgs/river.jpeg");
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: center;
 }
-
-
-#work{
-    font-size: 35px;
-}
-
-
-#contactme{
-    font-size: 35px;
-}
-
-
-#resume{
-    font-size: 35px;
-}
-
-
-p {
-    font-size: 30px;
-    color:firebrick;
-}
-
-
-img{
-   height: 25%;
-   width: 20%;
-   flex-wrap: wrap;
-   padding: 5px;
-}
-
-
-a {
+nav{
     font-size: 25px;
+    color:white
+}
+img{
+    height: 25%;
     justify-content: space-evenly;
-    justify-content: center;
-    padding: 5px;
-    padding-bottom: even;
-
+    flex-wrap: wrap;
 }
-flex-container:
-    justify-content:flex-end;
-footer{
-    
-    justify-content: flex-end;
-}
-button{
-    position:fixed;
-    justify-content: end;
-}
-
-
 
 
