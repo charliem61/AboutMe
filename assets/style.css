@@ -21,40 +21,59 @@ header{
     justify-content: space-evenly;
     padding: 25px;
 }
-div.hero {
+
+.hero {
     display:behind;
-    background-image: url("images/20170522_174550_Original.jpg")
-    display:block;
+    background-image: url("assets/images/ems:vol:imgs/river.jpeg");
     width:100%;
-    padding-top:40px;
+    padding: top 10px;
 }
+
 .banner {
     color: azure;
     font-size: 35px;
     justify-content:end
 }
+div{
+    flex-container: 
+    justify-content: flex-end;
+    color: black;
+}
+
 #about-me{
     font-size: 35px;
 }
+
+
 #work{
     font-size: 35px;
 }
+
+
 #contactme{
     font-size: 35px;
 }
+
+
 #resume{
     font-size: 35px;
 }
+
+
 p {
     font-size: 30px;
     color:firebrick;
 }
+
+
 img{
    height: 25%;
    width: 20%;
    flex-wrap: wrap;
    padding: 5px;
 }
+
+
 a {
     font-size: 25px;
     justify-content: space-evenly;
@@ -62,6 +81,12 @@ a {
     padding: 5px;
     padding-bottom: even;
 
+}
+flex-container:
+    justify-content:flex-end;
+footer{
+    
+    justify-content: flex-end;
 }
 button{
     position:fixed;
