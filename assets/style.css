@@ -4,6 +4,11 @@ header{
     color:white;
     flex-wrap: wrap;
 }
+
+.profile-photo{
+    width: 10%;
+    height: 10%;
+}
 .name{
     padding:20px;
     font-size: 50px;
@@ -11,6 +16,10 @@ header{
     color:ghostwhite;
     flex:1 0 auto;
 }
+.box{
+    margin-bottom: 50px;
+}
+
 .link-bar{
     display: flex;
     align-items: center;
@@ -20,6 +29,12 @@ header{
     font-size: 30px;
     color:whitesmoke;
 }
+
+a{
+    text-decoration: none;
+
+}
+
 .banner{
     display: flex;
     justify-content: flex-end;
@@ -29,6 +44,7 @@ header{
     opacity: 65%;
     color:whitesmoke;
     background: black;
+    height: 100px;
 }
 a{
     font-size: 30px;
@@ -39,6 +55,12 @@ a{
     flex-direction: left;
 
 }
+
+p{
+    color:#eee;
+    font-size: large;
+}
+
 
 .hero{
     display: flex;
@@ -53,18 +75,16 @@ a{
     background-size: center;
     place-content: behind;
 }
+.center-description{
+    color: black;
+    font-size: x-large;
+    font-weight: bold;
+}
 nav{
     font-size: 3px;
     color:white
 }
 
-img{
-    height: 24%;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    padding: 3px;
-
-}
 body{
     background-color:darkslategray;
 }
@@ -81,4 +101,23 @@ footer{
     color:whitesmoke;
     background:black;
     justify-content: space-evenly;
+}
+img{
+    width: 110%;;
+    padding-right: 20px;
+    margin-left: 0;
+}
+.allimages{
+    display:flex;
+    justify-content: center; 
+    align-items: center;
+    flex-wrap:wrap;
+} 
+
+.image {
+    width:15%;
+    height:15%;
+} 
+.cirlceimage{
+    border-radius: 80%;
 }
