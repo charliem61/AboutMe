@@ -1,7 +1,11 @@
 # mW_worx/port
 
-/// github link:
-/// live link:
+
+Live Link:
+https://charliem61.github.io/mW_worx2.0/
+
+Repo Link:
+https://github.com/charliem61/mW_worx2.0
 
 Goal/Motivation :
 
@@ -24,14 +28,4 @@ Challenges Faced:
         /// The hero, the bain of my existance and created all formatting issues which is in turn why this page is late for deployment. But also my favorite part of the whole page is the hero I chose. My favorite hiking trip with the most beautiful woman in the world. 
 
         /// Creating boxes, at this time I need to go review the creation of boxes. I want to go for it and try but its time to move on and come back later. 
-
-
-
-
-
-
-Read me:
-
-'''\git@github.com:charliem61/AboutMe-MasonW.git/'''
-'''\git@github.com:charliem61/AboutMe.git/'''
 

@@ -9,6 +9,7 @@ header{
     width: 10%;
     height: 10%;
 }
+
 .name{
     padding:20px;
     font-size: 50px;
@@ -16,6 +17,7 @@ header{
     color:ghostwhite;
     flex:1 0 auto;
 }
+
 .box{
     margin-bottom: 50px;
 }
@@ -46,10 +48,12 @@ a{
     background: black;
     height: 100px;
 }
+
 a{
     font-size: 30px;
     color:grey
 }
+
 .name{
     justify-content: left;
     flex-direction: left;
@@ -80,6 +84,7 @@ p{
     font-size: 36px;
     font-weight: bold;
 }
+
 nav{
     font-size: 3px;
     color:white
@@ -101,11 +106,13 @@ footer{
     background:black;
     justify-content: space-evenly;
 }
+
 img{
     width: 110%;;
     padding-right: 20px;
     margin-left: 0;
 }
+
 .allimages{
     display:flex;
     justify-content: center; 
