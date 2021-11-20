@@ -29,3 +29,4 @@ Challenges Faced:
 
         /// Creating boxes, at this time I need to go review the creation of boxes. I want to go for it and try but its time to move on and come back later. 
 
+<img src="assets/images/screencapture-charliem61-github-io-mW-worx2-0-2021-11-20-14_57_37.png" alt="fullpagescreenshot" class="image">
