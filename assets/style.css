@@ -14,9 +14,10 @@ header{
 .name{
     padding:20px;
     font-size: 50px;
-    background-color:black;
-    color:mediumblue;
+    background-color:steelblue;
+    color:midnightblue;
     flex:1 0 auto;
+    opacity: 85%;
 }
 
 .box{
@@ -44,7 +45,7 @@ a{
     font-size: 50px;
     padding:25px;
     border-radius: 10px;
-    opacity: 65%;
+    opacity: 85%;
     color:red;
     background: black;
     height: 100px;
@@ -83,6 +84,12 @@ p{
     color: black;
     font-size: 36px;
     font-weight: bold;
+}
+
+.passGen{
+    height: 80%;
+    width: 80%;
+
 }
 
 nav{
