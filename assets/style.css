@@ -6,15 +6,16 @@ header{
 }
 
 .profile-photo{
-    width: 10%;
-    height: 10%;
+    width: 16%;
+    height: 16%;
+    border-radius:;
 }
 
 .name{
     padding:20px;
     font-size: 50px;
     background-color:black;
-    color:ghostwhite;
+    color:mediumblue;
     flex:1 0 auto;
 }
 
@@ -40,18 +41,18 @@ a{
 .banner{
     display: flex;
     justify-content: flex-end;
-    font-size: 45px;
+    font-size: 50px;
     padding:25px;
     border-radius: 10px;
     opacity: 65%;
-    color:whitesmoke;
+    color:red;
     background: black;
     height: 100px;
 }
 
 a{
     font-size: 30px;
-    color:grey
+    color:lawngreen
 }
 
 .name{
@@ -59,7 +60,6 @@ a{
     flex-direction: left;
 
 }
-
 p{
     color:#eee;
     font-size: 25px;
