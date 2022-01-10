@@ -2,10 +2,9 @@
 
 
 Live Link:
-https://charliem61.github.io/mW_worx2.0/
 
 Repo Link:
-https://github.com/charliem61/mW_worx2.0
+
 
 Goal/Motivation :
 
