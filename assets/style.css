@@ -4,13 +4,11 @@ header{
     color:white;
     flex-wrap: wrap;
 }
-
 .profile-photo{
     width: 16%;
     height: 16%;
     border-radius:;
 }
-
 .name{
     padding:20px;
     font-size: 50px;
@@ -19,11 +17,9 @@ header{
     flex:1 0 auto;
     opacity: 85%;
 }
-
 .box{
     margin-bottom: 50px;
 }
-
 .link-bar{
     display: flex;
     align-items: center;
@@ -33,12 +29,10 @@ header{
     font-size: 30px;
     color:whitesmoke;
 }
-
 a{
     text-decoration: none;
 
 }
-
 .banner{
     display: flex;
     justify-content: flex-end;
@@ -50,23 +44,18 @@ a{
     background: black;
     height: 100px;
 }
-
 a{
     font-size: 30px;
     color:lawngreen
 }
-
 .name{
     justify-content: left;
     flex-direction: left;
-
 }
 p{
     color:#eee;
     font-size: 25px;
 }
-
-
 .hero{
     display: flex;
     /* justify-content: flex-end; */
@@ -85,13 +74,6 @@ p{
     font-size: 36px;
     font-weight: bold;
 }
-
-.passGen{
-    height: 80%;
-    width: 80%;
-
-}
-
 nav{
     font-size: 3px;
     color:white
@@ -113,23 +95,17 @@ footer{
     background:black;
     justify-content: space-evenly;
 }
-
 img{
-    width: 110%;;
+    width: 20%;
+    height: 20%;
     padding-right: 20px;
     margin-left: 0;
 }
-
 .allimages{
     display:flex;
     justify-content: center; 
     align-items: center;
     flex-wrap:wrap;
-} 
-
-.image {
-    width:15%;
-    height:15%;
 } 
 .cirlceimage{
     border-radius: 80%;

@@ -2,7 +2,6 @@
 
 html {
     font size:15px
-
 }
 body{
     background-color: tan;
@@ -42,16 +41,6 @@ header{
 }
 #resume{
     font-size: 35px;
-}
-p {
-    font-size: 30px;
-    color:firebrick
-}
-img{
-   height: 175px;
-   width: 215px;
-   flex-wrap: wrap;
-   padding: 25px;
 }
 a {
     font-size: 25px;
