@@ -4,16 +4,21 @@ header{
     color:white;
     flex-wrap: wrap;
 }
-.profile-photo{
-    width: 16%;
-    height: 16%;
+/* .profile-photo{
+    width: 50%;
+    height: 50%;
     border-radius:;
+} */
+.profileImg{
+    width:25%;
+    height: 25%;
+
 }
 .name{
     padding:20px;
     font-size: 50px;
-    background-color:steelblue;
-    color:midnightblue;
+    background-color:black;
+    color:azure;
     flex:1 0 auto;
     opacity: 85%;
 }
@@ -31,7 +36,6 @@ header{
 }
 a{
     text-decoration: none;
-
 }
 .banner{
     display: flex;
@@ -40,7 +44,7 @@ a{
     padding:25px;
     border-radius: 10px;
     opacity: 85%;
-    color:red;
+    color:floralwhite;
     background: black;
     height: 100px;
 }
