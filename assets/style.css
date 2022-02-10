@@ -9,18 +9,22 @@ header{
     height: 50%;
     border-radius:;
 } */
+.divhero{
+    
+}
 .profileImg{
-    width:25%;
-    height: 25%;
+    width: 80%;
+    height: 40%;
+    border-radius: 80%;
 
 }
 .name{
-    padding:20px;
+    /* padding:20px; */
     font-size: 50px;
     background-color:black;
     color:azure;
     flex:1 0 auto;
-    opacity: 85%;
+    /* opacity: 85%; */
 }
 .box{
     margin-bottom: 50px;
@@ -41,16 +45,16 @@ a{
     display: flex;
     justify-content: flex-end;
     font-size: 50px;
-    padding:25px;
+    padding:20px;
     border-radius: 10px;
-    opacity: 85%;
+    opacity: 80%;
     color:floralwhite;
     background: black;
-    height: 100px;
+    height: 90px;
 }
 a{
-    font-size: 30px;
-    color:lawngreen
+    font-size:30px;
+    color:aqua
 }
 .name{
     justify-content: left;
@@ -58,14 +62,15 @@ a{
 }
 p{
     color:#eee;
-    font-size: 25px;
+    font-size: 30px;
 }
 .hero{
     display: flex;
     /* justify-content: flex-end; */
     /* align-items: flex-end; */
     overflow: hidden;
-    background-image: url("images/ems:vol:imgs/20170522_174351_Original.jpeg");
+    /*background-image: url("images/ems:vol:imgs/20170522_174351_Original.jpeg"); */
+    background-image: url("images/20170522_174550_Original.jpg");
     width: 100%;
     height: 100%;
     background-repeat: no-repeat;
@@ -83,7 +88,7 @@ nav{
     color:white
 }
 body{
-    background-color:darkslategray;
+    background-color:lightblue;
 }
 nav{
     font-size: 35px;
@@ -92,7 +97,7 @@ nav{
 footer{
     display: flex;
     justify-content: flex-end;
-    font-size: 60px;
+    font-size: 25px;
     padding: 20px;
     border-radius: 10px;
     color:whitesmoke;
@@ -100,8 +105,8 @@ footer{
     justify-content: space-evenly;
 }
 img{
-    width: 20%;
-    height: 20%;
+    width: 30%;
+    height: 30%;
     padding-right: 20px;
     margin-left: 0;
 }
