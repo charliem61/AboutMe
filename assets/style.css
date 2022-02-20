@@ -4,27 +4,21 @@ header{
     color:white;
     flex-wrap: wrap;
 }
-/* .profile-photo{
-    width: 50%;
-    height: 50%;
-    border-radius:;
-} */
 .divhero{
     
 }
 .profileImg{
-    width: 80%;
-    height: 40%;
+    width: 90%;
+    height: 50%;
     border-radius: 80%;
-
 }
 .name{
-    /* padding:20px; */
-    font-size: 50px;
+    padding:20px;
+    font-size: 60px;
     background-color:black;
     color:azure;
     flex:1 0 auto;
-    /* opacity: 85%; */
+    opacity: 85%;
 }
 .box{
     margin-bottom: 50px;
@@ -38,13 +32,10 @@ header{
     font-size: 30px;
     color:whitesmoke;
 }
-a{
-    text-decoration: none;
-}
 .banner{
     display: flex;
     justify-content: flex-end;
-    font-size: 50px;
+    font-size: 60px;
     padding:20px;
     border-radius: 10px;
     opacity: 80%;
@@ -53,7 +44,8 @@ a{
     height: 90px;
 }
 a{
-    font-size:30px;
+    text-decoration: none;
+    font-size:40px;
     color:aqua
 }
 .name{
@@ -62,7 +54,7 @@ a{
 }
 p{
     color:#eee;
-    font-size: 30px;
+    font-size: 35px;
 }
 .hero{
     display: flex;
@@ -71,16 +63,15 @@ p{
     overflow: hidden;
     /*background-image: url("images/ems:vol:imgs/20170522_174351_Original.jpeg"); */
     background-image: url("images/20170522_174550_Original.jpg");
-    width: 100%;
-    height: 100%;
+    width: 80%;
+    height: 80%;
     background-repeat: no-repeat;
     background-size: cover;
     background-size: center;
-    place-content: behind;
 }
 .center-description{
     color: black;
-    font-size: 36px;
+    font-size:48px;
     font-weight: bold;
 }
 nav{
@@ -88,7 +79,7 @@ nav{
     color:white
 }
 body{
-    background-color:lightblue;
+    background-color:rgb(2, 49, 65);
 }
 nav{
     font-size: 35px;
@@ -110,12 +101,12 @@ img{
     padding-right: 20px;
     margin-left: 0;
 }
-.allimages{
+/* .allimages{
     display:flex;
     justify-content: center; 
     align-items: center;
     flex-wrap:wrap;
-} 
+}  */
 .cirlceimage{
     border-radius: 80%;
 }
