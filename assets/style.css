@@ -4,17 +4,41 @@ header{
     color:white;
     flex-wrap: wrap;
 }
+.hero{
+    display: flex;
+    /* justify-content: flex-end; */
+    /* align-items: flex-end; */
+    overflow: hidden;
+    /*background-image: url("images/ems:vol:imgs/20170522_174351_Original.jpeg"); */
+    background-image: url("images/20170522_174550_Original.jpg");
+    width: 80%;
+    height: 80%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: center;
+}
 .divhero{
-    
+    background-image: url("images/20170522_174550_Original.jpg");
+    display: flex;
+    /* justify-content: flex-end; */
+    /* align-items: flex-end; */
+    overflow: hidden;
+    /*background-image: url("images/ems:vol:imgs/20170522_174351_Original.jpeg"); */
+    width: 80%;
+    height: 80%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: center;
+
 }
 .profileImg{
-    width: 90%;
-    height: 50%;
+    width: 110%;
+    height: 70%;
     border-radius: 80%;
 }
 .name{
     padding:20px;
-    font-size: 60px;
+    font-size: 80px;
     background-color:black;
     color:azure;
     flex:1 0 auto;
@@ -41,12 +65,16 @@ header{
     opacity: 80%;
     color:floralwhite;
     background: black;
-    height: 90px;
+    height: 100px;
 }
 a{
     text-decoration: none;
     font-size:40px;
-    color:aqua
+    color:aqua;
+    display:flex;
+    justify-content: center; 
+    align-items: center;
+    flex-wrap:wrap;
 }
 .name{
     justify-content: left;
@@ -55,19 +83,10 @@ a{
 p{
     color:#eee;
     font-size: 35px;
-}
-.hero{
-    display: flex;
-    /* justify-content: flex-end; */
-    /* align-items: flex-end; */
-    overflow: hidden;
-    /*background-image: url("images/ems:vol:imgs/20170522_174351_Original.jpeg"); */
-    background-image: url("images/20170522_174550_Original.jpg");
-    width: 80%;
-    height: 80%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-size: center;
+    display:flex;
+    justify-content: center; 
+    align-items: center;
+    flex-wrap:wrap;
 }
 .center-description{
     color: black;
@@ -98,15 +117,15 @@ footer{
 img{
     width: 30%;
     height: 30%;
-    padding-right: 20px;
+    padding:30px;
     margin-left: 0;
 }
-/* .allimages{
+.allimages{
     display:flex;
     justify-content: center; 
     align-items: center;
     flex-wrap:wrap;
-}  */
-.cirlceimage{
+} 
+/* .cirlceimage{
     border-radius: 80%;
-}
+} */
