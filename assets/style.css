@@ -67,7 +67,7 @@ header{
     background: black;
     height: 100px;
 }
-a{
+.aNav{
     text-decoration: none;
     font-size:40px;
     color:aqua;
@@ -116,11 +116,11 @@ footer{
 }
 img{
     width: 30%;
-    height: 30%;
+    height: 60%;
     padding:30px;
     margin-left: 0;
 }
-.allimages{
+.allimages div{
     display:flex;
     justify-content: center; 
     align-items: center;
